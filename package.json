@@ -1,0 +1,30 @@
+{
+  "name": "althingi",
+  "version": "1.0.0",
+  "description": "A web scraper for althingi.is",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/koddsson/althingi.git"
+  },
+  "keywords": [
+    "parlament",
+    "iceland",
+    "scrape",
+    "althingi"
+  ],
+  "author": "koddsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koddsson/althingi/issues"
+  },
+  "homepage": "https://github.com/koddsson/althingi",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "entities": "^1.1.1",
+    "request": "^2.55.0"
+  }
+}
